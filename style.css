@@ -215,5 +215,25 @@ nav ul li a:hover::after {
 }
 
 @media screen and (max-width: 600px) {
-    
+  #profile {
+    margin-top: -3rem;
+  }
+
+  .profile-title {
+    font-size: 1.5rem;
+  }
+
+  .profile-description {
+    font-size: 10px;
+    flex-basis: 29%;
+    margin-top: -1rem;
+  }
+  .profile-logo {
+    margin-right: -1rem;
+    margin-top: 7rem;
+  }
+
+  .profile-logo img {
+    height: 6rem;
+  }
 }
