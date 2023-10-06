@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Neuton:wght@700&family=Pacifico&family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+:root {
+  --light-blue: #638ecb;
+  --dark-blue: #346fbf;
+  --dirty-white: #FBF8F4;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,9 +19,14 @@ html {
 
 body {
   background: white;
+  width: 100%;
 }
 
-/* ===== Navigation ===== */
+.wrapper {
+  width: 90%;
+}
+
+/* Navigation */
 
 .nav-container {
   padding: 10px 5%;
