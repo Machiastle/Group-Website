@@ -13,7 +13,7 @@
     <div class="nav-container">
       <nav id="desktop-nav">
         <div class="logo-nav">
-          <img src="Assets/Logo.png"/>
+          <img src="Assets/Logo.png" />
           Studio Ghibli
         </div>
         <ul class="nav-links">
@@ -26,6 +26,28 @@
         </ul>
       </nav>
     </div>
+
+    <!-- ===== Navigation - Hamburger ===== -->
+    <nav id="hamburger-nav">
+      <div class="logo-hamburger">
+        <img src="Assets/Logo.png" /> Studio Ghibli
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="hamburger-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#80section" onclick="toggleMenu()">1980s</a></li>
+          <li><a href="#90section" onclick="toggleMenu()">1990s</a></li>
+          <li><a href="#00section" onclick="toggleMenu()">2000s</a></li>
+          <li><a href="#10section" onclick="toggleMenu()">2010s</a></li>
+          <li><a href="#20section" onclick="toggleMenu()">2020s</a></li>
+        </div>
+      </div>
+    </nav>
 
     <!-- ===== Profile ===== -->
 
@@ -48,5 +70,8 @@
         </div>
       </div>
     </section>
+
+    <!-- ===== Scripts ===== -->
+    <script src="script.js"></script>
   </body>
 </html>
