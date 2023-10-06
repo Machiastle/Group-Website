@@ -27,6 +27,11 @@ body {
   color: #346fbf;
 }
 
+.logo-nav img {
+  height: 45px;
+  padding-right: 0.5;
+}
+
 nav {
   display: flex;
   align-items: center;
