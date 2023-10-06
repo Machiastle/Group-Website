@@ -5,6 +5,7 @@
   --light-blue: #638ecb;
   --dark-blue: #346fbf;
   --dirty-white: #FBF8F4;
+  --light-pink: #FFCFCF;
 }
 
 * {
@@ -20,10 +21,12 @@ html {
 body {
   background: white;
   width: 100%;
+  font-size: 100%;
 }
 
 .wrapper {
   width: 90%;
+  padding: 0 90px;
 }
 
 /* Navigation */
@@ -83,7 +86,7 @@ nav ul li a:hover::after {
   width: 100%;
 }
 
-/* ===== Navigation (Hamburger) ===== */
+/* Navigation (Hamburger) */
 
 #hamburger-nav {
   display: none;
@@ -174,10 +177,11 @@ nav ul li a:hover::after {
   transform: none;
 }
 
-/* ===== Profile ===== */
+/* Profile */
 
 #profile {
   padding: 80px 0;
+  height: 100vh;
 }
 
 .profile-container {
@@ -213,38 +217,36 @@ nav ul li a:hover::after {
   text-align: justify;
 }
 
-/* ===== Mediaqueries ===== */
-@media screen and (max-width: 1200px) {
-  #desktop-nav {
-    display: none;
-  }
-
-  #hamburger-nav {
-    display: flex;
-    padding-right: 2rem;
-  }
+/* Generation Section */
+.headline {
+  color: var(--dirty-white);
+  font-size: 14vw;
 }
 
-@media screen and (max-width: 600px) {
-  #profile {
-    margin-top: -3rem;
-  }
+/* 1990s Section */
+#yr1990s {
+  height: 170vh;
+  background-color: var(--dirty-white);
+}
 
-  .profile-title {
-    font-size: 1.5rem;
-  }
+#yr1990s .heading {
+  height: 55vh;
+  display: flex;
+  background: url(/Assets/Heading2.jpg);
+  color: white;
+}
 
-  .profile-description {
-    font-size: 10px;
-    flex-basis: 29%;
-    margin-top: -1rem;
-  }
-  .profile-logo {
-    margin-right: -1rem;
-    margin-top: 7rem;
-  }
+#yr1990s .right img {
+  border-radius: 65px;
+  box-shadow: 10px 10px 4px 0px rgb(255, 255, 255, 0.25); 
+}
 
-  .profile-logo img {
-    height: 6rem;
-  }
+#yr1990s .content {
+  background-color: pink;
+}
+
+/* Footer */
+footer {
+  height: 30vh;
+  background: var(--light-blue);
 }
