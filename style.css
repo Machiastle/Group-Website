@@ -4,8 +4,8 @@
 :root {
   --light-blue: #638ecb;
   --dark-blue: #346fbf;
-  --dirty-white: #FBF8F4;
-  --light-pink: #FFCFCF;
+  --dirty-white: #fbf8f4;
+  --light-pink: #ffcfcf;
 }
 
 * {
@@ -214,6 +214,7 @@ nav ul li a:hover::after {
 .profile-description {
   flex-basis: 40%;
   margin-top: 4.5rem;
+
   text-align: justify;
 }
 
@@ -222,6 +223,7 @@ nav ul li a:hover::after {
   color: var(--dirty-white);
   font-size: 14vw;
 }
+/*1980s section*/
 
 /* 1990s Section */
 #yr1990s {
@@ -238,7 +240,7 @@ nav ul li a:hover::after {
 
 #yr1990s .right img {
   border-radius: 65px;
-  box-shadow: 10px 10px 4px 0px rgb(255, 255, 255, 0.25); 
+  box-shadow: 10px 10px 4px 0px rgb(255, 255, 255, 0.25);
 }
 
 #yr1990s .content {
@@ -249,4 +251,37 @@ nav ul li a:hover::after {
 footer {
   height: 30vh;
   background: var(--light-blue);
+}
+/*2000s section*/
+.top_container {
+  position: relative;
+  overflow: hidden; /* This hides any image overflow outside the container */
+}
+
+.image_00s {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+.top_contents {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.year {
+  font-size: 10rem;
+  margin-right: 2rem;
+}
+
+.mov_img {
+  max-width: 100%;
+  border-radius: 5rem;
 }
