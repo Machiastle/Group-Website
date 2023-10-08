@@ -26,7 +26,7 @@ body {
 
 .wrapper {
   width: 90%;
-  padding: 0 90px;
+  padding: 0 70px;
 }
 
 /* Navigation */
@@ -247,35 +247,42 @@ nav ul li a:hover::after {
   background-color: pink;
 }
 
-/* Footer */
-footer {
-  height: 30vh;
-  background: var(--light-blue);
-}
 /*2000s section*/
 .top_container {
   position: relative;
-  overflow: hidden; /* This hides any image overflow outside the container */
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  background: url(/Assets/Preview19.png) center/cover no-repeat;
+  background-size: cover;
 }
 
-.image_00s {
-  width: 100%;
-  height: 80%;
-  object-fit: cover;
-}
-.top_contents {
+.top_container::before {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 0;
 }
+
+.year,
+.mov_img {
+  position: relative;
+  z-index: 1;
+}
+
+.mov_img {
+  width: 40%;
+  height: 80%;
+}
+
 .year {
   font-size: 10rem;
   margin-right: 2rem;
@@ -288,15 +295,16 @@ footer {
 .movies_00s {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  justify-content: space-around;
 }
 .movie_1,
 .movie_2,
 .movie_3,
 .movie_4,
 .movie_5 {
-  width: 30rem;
-  height: 40rem;
+  width: 25rem;
+  height: 45rem;
   background-color: white;
   border: 2px solid black;
   border-radius: 10px;
@@ -304,13 +312,22 @@ footer {
   margin: 2rem 0 2rem;
   display: flex;
   flex-direction: column;
+  transition: transform 0.3s ease;
 }
+.movie_1:hover,
+.movie_2:hover,
+.movie_3:hover,
+.movie_4:hover,
+.movie_5:hover {
+  transform: translateY(-20px);
+}
+
 .upper_part {
   height: 89%;
 }
 .upper_part img {
-  width: 100%; /* Set the width to 100% to fill the entire .upper_part div */
-  height: 100%; /* Set the height to 100% to consume the available space */
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: 8px;
 }
@@ -320,4 +337,12 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.title {
+  margin-top: 0.3rem;
+}
+/* Footer */
+footer {
+  height: 30vh;
+  background: var(--light-blue);
 }
