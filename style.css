@@ -290,7 +290,11 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.movie {
+.movie_1,
+.movie_2,
+.movie_3,
+.movie_4,
+.movie_5 {
   width: 30rem;
   height: 40rem;
   background-color: white;
@@ -298,23 +302,19 @@ footer {
   border-radius: 10px;
   box-sizing: border-box;
   margin: 2rem 0 2rem;
+  display: flex;
+  flex-direction: column;
 }
 .upper_part {
-  flex: 1;
-  background-image: url("Assets/Movie13.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  height: 89%;
 }
-.img_pic {
-  width: 60%;
-  height: auto;
-  margin-left: 5rem;
-  margin-top: 2rem;
-  border-radius: 10px;
-  border: 2px solid black;
-  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4);
+.upper_part img {
+  width: 100%; /* Set the width to 100% to fill the entire .upper_part div */
+  height: 100%; /* Set the height to 100% to consume the available space */
+  object-fit: cover;
+  border-radius: 8px;
 }
+
 .title,
 .year_00 {
   display: flex;
