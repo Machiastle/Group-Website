@@ -226,24 +226,24 @@ nav ul li a:hover::after {
 /*1980s section*/
 
 /* 1990s Section */
-#yr1990s {
+#section_90s {
   height: 170vh;
   background-color: var(--dirty-white);
 }
 
-#yr1990s .heading {
+#section_90s .heading {
   height: 55vh;
   display: flex;
   background: url(/Assets/Heading2.jpg);
   color: white;
 }
 
-#yr1990s .right img {
+#section_90s .right img {
   border-radius: 65px;
   box-shadow: 10px 10px 4px 0px rgb(255, 255, 255, 0.25);
 }
 
-#yr1990s .content {
+#section_90s .content {
   background-color: pink;
 }
 
@@ -320,4 +320,95 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Showcase Movies Section */
+.showcase {
+  position: fixed;
+  top: 0; left: 0;
+  min-height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, .8);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.showcase .preview {
+  display: none;
+  padding: 2rem;
+  text-align: center;
+  background: white;
+  position: relative;
+  margin: 2rem;
+  width: 40rem;
+}
+
+.showcase .preview.active {
+  display: inline-block;
+}
+
+.showcase .preview img {
+  height: 30rem;
+}
+
+.showcase .preview .fa-xmark {
+  position: absolute;
+  top: 1rem; right: 1.5rem;
+  cursor: pointer;
+  color: var(--dark-blue);
+  font-size: 4rem;
+}
+
+.showcase .preview .fa-xmark:hover {
+  transform: rotate(90deg);
+  transition: 0.4s ease-in-out;
+}
+
+.showcase .preview h3 {
+  color: #444;
+  padding: 0.5rem 0;
+  font-size: 2.5rem;
+}
+
+.showcase .preview p {
+  line-height: 1.5;
+  padding: 1rem 0;
+  font-size: 1.6rem;
+  color: #777;
+}
+
+.showcase .preview .buttons {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.showcase .preview .buttons a {
+  flex: 1 1 16rem;
+  padding: 1rem;
+  font-size: 1.8rem;
+  color: #444;
+  border: .1rem solid #444;
+}
+
+.showcase .preview .buttons a.link1 {
+  background: #444;
+  color: #fff;
+}
+
+.showcase .preview .buttons a.link1:hover {
+  background: #111;
+  transition: 0.4s ease-in-out;
+}
+
+.showcase .preview .buttons a.link2:hover {
+  background: #222;
+  transition: 0.4s ease-in-out;
+}
+
+.showcase .preview .buttons a.link3:hover {
+  background: #333;
+  transition: 0.4s ease-in-out;
 }
