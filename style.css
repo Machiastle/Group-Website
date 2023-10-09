@@ -353,11 +353,18 @@ footer {
   object-fit: contain;
 }
 
+.showcase .preview .right {
+  display: block;
+}
+
 .showcase .preview .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
   padding: 2rem;
   background: white;
   margin-bottom: 4rem;
-  display: flex;
 }
 
 .showcase .preview.active {
@@ -388,16 +395,22 @@ footer {
 }
 
 .showcase .preview h3 {
-  color: #444;
+  color: var(--dark-blue);
+  font-family: "Neuton", serif;
   padding: 0.5rem 0;
-  font-size: 2.5rem;
+  font-size: 5rem;
+  margin: 0 5rem 0rem;
 }
 
-.showcase .preview p {
+.showcase .preview h5 {
   line-height: 1.5;
+  width: 50%;
+  text-align: center;
+  align-items: center;
   padding: 1rem 0;
-  font-size: 1.6rem;
+  font-size: 1rem;
   color: #777;
+  padding-bottom: 3rem;
 }
 
 .showcase .preview .buttons {
@@ -408,29 +421,34 @@ footer {
 }
 
 .showcase .preview .buttons a {
-  flex: 1 1 16rem;
-  padding: 1rem;
-  font-size: 1.8rem;
+  flex: 1 1 12rem;
+  padding: 0.8rem;
+  font-size: 1.2rem;
   color: #444;
   border: .1rem solid #444;
+  text-decoration: none;
+}
+
+.showcase .preview .buttons .links {
+  padding-right: 0.5rem;
 }
 
 .showcase .preview .buttons a.link1 {
-  background: #444;
+  background: #cfb128;
   color: #fff;
 }
 
-.showcase .preview .buttons a.link1:hover {
+.showcase .preview .buttons a.link2 {
+  background: var(--dark-blue);
+  color: #fff;
+}
+
+.showcase .preview .buttons a.link3 {
+  background: #b11919;
+  color: #fff;
+}
+
+.showcase .preview .buttons a:hover {
   background: #111;
-  transition: 0.4s ease-in-out;
-}
-
-.showcase .preview .buttons a.link2:hover {
-  background: #222;
-  transition: 0.4s ease-in-out;
-}
-
-.showcase .preview .buttons a.link3:hover {
-  background: #333;
   transition: 0.4s ease-in-out;
 }
