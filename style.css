@@ -257,7 +257,7 @@ nav ul li a:hover::after {
   text-align: center;
   color: white;
   overflow: hidden;
-  background: url(/Assets/Preview19.png) center/cover no-repeat;
+  background: url(/Assets/Preview14.png) center/cover no-repeat;
   background-size: cover;
   border-radius: 10px;
 }
@@ -339,6 +339,49 @@ nav ul li a:hover::after {
   display: flex;
   justify-content: center;
   font-size: 16px;
+}
+/*2010s section*/
+.top_container_10s {
+  position: relative;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  background: url(/Assets/Preview19.png) center/cover no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.top_container_10s::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 0;
+}
+
+.movies_10s {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.title,
+.year_10,
+.title_long {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+}
+.title_long {
+  font-size: 13.5px;
+  font-weight: bolder;
 }
 
 /* Footer */
