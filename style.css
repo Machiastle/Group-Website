@@ -424,6 +424,7 @@ footer {
 
 .showcase .preview .left img {
   height: 40rem;
+  border: 5px outset var(--light-gray);
 }
 
 .showcase .preview .fa-xmark {
@@ -515,17 +516,61 @@ footer {
 }
 
 .showcase .characters {
-  height: 40rem;
-  width: 100%;
-  margin-top: 3rem;
-  padding: 1rem;
+  height: 50rem;
+  position: relative;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px;
+	margin-top: 8%;
   background: var(--dark-gray);
-  display: flex;
-  flex-direction: row;
+  border: 5px outset var(--dark-gray);
 }
 
-.showcase .characters img {
+.showcase .characters .title {
+  font-size: 2rem;
+  color: var(--dirty-white);
+  text-shadow: 1px 1px 7px #dfdfdf;
+}
+
+.showcase .character {
+  width: 100%;
+  height: auto;
   display: flex;
-  width: 30%;
-  object-fit: cover;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.showcase .character .char_box {
+  width: 50%;
+  height: 110%;
+  background: var(--dirty-white);
+  font-size: 20px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 1rem;
+  margin: 10px;
+}
+
+.showcase .character .char_box h2 {
+  color: var(--darker-blue);
+  font-family: "Neuton", serif;
+  font-size: 2rem;
+  margin: 1rem;
+  text-shadow: 1px 1px 1px var(--light-blue);
+}
+
+.showcase .character .char_box p {
+  color: var(--dark-gray);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.showcase .character .char_box img {
+  width: 50%;
+  border: 5px double  var(--dark-blue);
+  border-radius: 30px;
 }
