@@ -8,7 +8,7 @@
   --dark-blue: #346fbf;
   --darker-blue: #002457;
   --dirty-white: #fbf8f4;
-  --light-gray: #777;
+  --light-gray: #888;
   --dark-gray: #303030;
   --light-pink: #ffcfcf;
 }
@@ -387,7 +387,7 @@ footer {
 
 .showcase .preview .heading_content h3 {
   color: var(--dirty-white);
-  font-family: 'Courgette', cursive;
+  font-family: 'Courgette', sans-serif;
   text-shadow: 1px 1px 7px #dfdfdf;
   font-size: 1rem;
   text-align: left;
@@ -449,25 +449,28 @@ footer {
   color: var(--light-gray);
   font-family: "Poppins", serif;
   font-size: 1rem;
-   margin-left: 10px;
+  margin-left: 10px;
 }
 
 .showcase .preview h4 {
-  color: var(--light-blue);
+  color: var(--dirty-white);
   font-family: 'Courgette', cursive;
   padding: 0.5rem 0;
   font-size: 1rem;
   margin: 0 5rem 0rem;
+  text-shadow: 1px 1px 7px #2e2e2e;
 }
 
 .showcase .preview h5 {
   line-height: 1.5;
-  text-align: center;
+  text-align: justify;
   align-items: center;
-  padding: 1rem 0;
+  padding: 1rem;
+  margin: 2rem 1rem;
+  max-width: 90%;
   font-size: 1rem;
-  color: var(--dark-gray);
-  padding-bottom: 3rem;
+  color: var(--dirty-white);
+  text-shadow: 1px 1px 7px #2e2e2e;
 }
 
 .showcase .preview .buttons {
@@ -481,8 +484,8 @@ footer {
   flex: 1 1 12rem;
   padding: 0.8rem;
   font-size: 1.2rem;
-  color: #444;
-  border: .1rem solid #444;
+  color: var(--dark-gray);
+  border: .1rem solid var(--dark-gray);
   text-decoration: none;
 }
 
@@ -496,7 +499,7 @@ footer {
 }
 
 .showcase .preview .buttons a.link2 {
-  background: var(--dark-blue);
+  background: var(--light-blue);
   color: #fff;
 }
 
@@ -513,13 +516,16 @@ footer {
 
 .showcase .characters {
   height: 40rem;
-  margin: 2rem;
-  background: red;
+  width: 100%;
+  margin-top: 3rem;
+  padding: 1rem;
+  background: var(--dark-gray);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .showcase .characters img {
-  width: 50%;
+  display: flex;
+  width: 30%;
   object-fit: cover;
 }
