@@ -1,6 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Neuton:wght@700&family=Pacifico&family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+:root {
+  --light-blue: #638ecb;
+  --dark-blue: #346fbf;
+  --dirty-white: #fbf8f4;
+  --light-pink: #ffcfcf;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,9 +20,16 @@ html {
 
 body {
   background: white;
+  width: 100%;
+  font-size: 100%;
 }
 
-/* ===== Navigation ===== */
+.wrapper {
+  width: 90%;
+  padding: 0 70px;
+}
+
+/* Navigation */
 
 .nav-container {
   padding: 10px 5%;
@@ -72,7 +86,7 @@ nav ul li a:hover::after {
   width: 100%;
 }
 
-/* ===== Navigation (Hamburger) ===== */
+/* Navigation (Hamburger) */
 
 #hamburger-nav {
   display: none;
@@ -163,10 +177,11 @@ nav ul li a:hover::after {
   transform: none;
 }
 
-/* ===== Profile ===== */
+/* Profile */
 
 #profile {
   padding: 80px 0;
+  height: 100vh;
 }
 
 .profile-container {
@@ -199,41 +214,135 @@ nav ul li a:hover::after {
 .profile-description {
   flex-basis: 40%;
   margin-top: 4.5rem;
+
   text-align: justify;
 }
 
-/* ===== Mediaqueries ===== */
-@media screen and (max-width: 1200px) {
-  #desktop-nav {
-    display: none;
-  }
+/* Generation Section */
+.headline {
+  color: var(--dirty-white);
+  font-size: 14vw;
+}
+/*1980s section*/
 
-  #hamburger-nav {
-    display: flex;
-    padding-right: 2rem;
-  }
+/* 1990s Section */
+#yr1990s {
+  height: 170vh;
+  background-color: var(--dirty-white);
 }
 
-@media screen and (max-width: 600px) {
-  #profile {
-    margin-top: -3rem;
-  }
+#yr1990s .heading {
+  height: 55vh;
+  display: flex;
+  background: url(/Assets/Heading2.jpg);
+  color: white;
+}
 
-  .profile-title {
-    font-size: 1.5rem;
-  }
+#yr1990s .right img {
+  border-radius: 65px;
+  box-shadow: 10px 10px 4px 0px rgb(255, 255, 255, 0.25);
+}
 
-  .profile-description {
-    font-size: 10px;
-    flex-basis: 29%;
-    margin-top: -1rem;
-  }
-  .profile-logo {
-    margin-right: -1rem;
-    margin-top: 7rem;
-  }
+#yr1990s .content {
+  background-color: pink;
+}
 
-  .profile-logo img {
-    height: 6rem;
-  }
+/*2000s section*/
+.top_container {
+  position: relative;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  background: url(/Assets/Preview19.png) center/cover no-repeat;
+  background-size: cover;
+}
+
+.top_container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 0;
+}
+
+.year,
+.mov_img {
+  position: relative;
+  z-index: 1;
+}
+
+.mov_img {
+  width: 40%;
+  height: 80%;
+}
+
+.year {
+  font-size: 10rem;
+  margin-right: 2rem;
+}
+
+.mov_img {
+  max-width: 100%;
+  border-radius: 5rem;
+}
+.movies_00s {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+}
+.movie_1,
+.movie_2,
+.movie_3,
+.movie_4,
+.movie_5 {
+  width: 25rem;
+  height: 45rem;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 2rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+.movie_1:hover,
+.movie_2:hover,
+.movie_3:hover,
+.movie_4:hover,
+.movie_5:hover {
+  transform: translateY(-20px);
+}
+
+.upper_part {
+  height: 89%;
+}
+.upper_part img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.title,
+.year_00 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  margin-top: 0.3rem;
+}
+/* Footer */
+footer {
+  height: 30vh;
+  background: var(--light-blue);
 }
