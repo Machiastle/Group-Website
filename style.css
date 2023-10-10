@@ -259,6 +259,7 @@ nav ul li a:hover::after {
   overflow: hidden;
   background: url(/Assets/Preview19.png) center/cover no-repeat;
   background-size: cover;
+  border-radius: 10px;
 }
 
 .top_container::before {
@@ -291,10 +292,10 @@ nav ul li a:hover::after {
 .mov_img {
   max-width: 100%;
   border-radius: 5rem;
+  margin-left: 10rem;
 }
 .movies_00s {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   justify-content: space-around;
 }
@@ -303,16 +304,17 @@ nav ul li a:hover::after {
 .movie_3,
 .movie_4,
 .movie_5 {
-  width: 25rem;
-  height: 45rem;
+  width: 15rem;
+  height: 25rem;
   background-color: white;
-  border: 2px solid black;
+  border: 2px solid #638ecb;
   border-radius: 10px;
   box-sizing: border-box;
   margin: 2rem 0 2rem;
   display: flex;
   flex-direction: column;
   transition: transform 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 .movie_1:hover,
 .movie_2:hover,
@@ -336,11 +338,9 @@ nav ul li a:hover::after {
 .year_00 {
   display: flex;
   justify-content: center;
-  align-items: center;
+  font-size: 16px;
 }
-.title {
-  margin-top: 0.3rem;
-}
+
 /* Footer */
 footer {
   height: 30vh;
