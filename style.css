@@ -351,6 +351,10 @@ footer {
   width: 90rem;
 }
 
+.showcase .preview.active {
+  display: inline-block;
+}
+
 .showcase .preview .heading img {
   min-height: 300px;
   position: relative;
@@ -415,10 +419,6 @@ footer {
 .showcase .preview .movie_info {
   display: flex;
   flex-direction: row;
-}
-
-.showcase .preview.active {
-  display: inline-block;
 }
 
 .showcase .preview .left {
