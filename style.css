@@ -371,7 +371,7 @@ footer {
   align-items: center;
   color: white;
   font-family: 'Staatliches', sans-serif;
-  text-shadow: 1px 1px 7px #dfdfdf;
+  text-shadow: 1px 1px 7px #8b8b8b;
   font-size: 7em;
   line-height: 7rem;
   text-align: left;
@@ -388,7 +388,7 @@ footer {
 .showcase .preview .heading_content h3 {
   color: var(--dirty-white);
   font-family: 'Courgette', sans-serif;
-  text-shadow: 1px 1px 7px #dfdfdf;
+  text-shadow: 1px 1px 7px #8b8b8b;
   font-size: 1rem;
   text-align: left;
 }
