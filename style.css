@@ -412,7 +412,6 @@ footer {
   margin-bottom: 4rem;
 }
 
-/* gawing flex-direction column pag maliit na*/
 .showcase .preview .movie_info {
   display: flex;
   flex-direction: row;
@@ -422,9 +421,19 @@ footer {
   display: inline-block;
 }
 
+.showcase .preview .left {
+  display: flex;
+  padding: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
 .showcase .preview .left img {
-  height: 40rem;
-  border: 5px outset var(--light-gray);
+  height: auto;
+  width: 50vw;
+  max-width: 100%;
+  min-width: 20rem;
+  border: 5px outset var(--dirty-white);
 }
 
 .showcase .preview .fa-xmark {
@@ -467,8 +476,8 @@ footer {
   text-align: justify;
   align-items: center;
   padding: 1rem;
-  margin: 2rem 1rem;
-  max-width: 90%;
+  margin: 1rem 1rem;
+  max-width: 80%;
   font-size: 1rem;
   color: var(--dirty-white);
   text-shadow: 1px 1px 7px #2e2e2e;
@@ -477,6 +486,7 @@ footer {
 .showcase .preview .buttons {
   display: flex;
   gap: 1.5rem;
+  width: 80%;
   flex-wrap: wrap;
   margin-top: 1rem;
 }
@@ -516,7 +526,7 @@ footer {
 }
 
 .showcase .characters {
-  height: 50rem;
+  height: 100%;
   position: relative;
 	width: 90%;
 	display: flex;
@@ -530,7 +540,7 @@ footer {
 }
 
 .showcase .characters .title {
-  font-size: 2rem;
+  font-size: 3rem;
   color: var(--dirty-white);
   text-shadow: 1px 1px 7px #dfdfdf;
 }
@@ -539,13 +549,14 @@ footer {
   width: 100%;
   height: auto;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
-  justify-content: space-around;
 }
 
 .showcase .character .char_box {
-  width: 50%;
-  height: 110%;
+  width: 90%;
+  height: auto;
   background: var(--dirty-white);
   font-size: 20px;
   text-align: center;
