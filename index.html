@@ -7,11 +7,6 @@
     <title>Studio Ghibli Collection</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <!-- for symbols -->
   </head>
 
   <body>
@@ -81,7 +76,7 @@
     <!-- 1980s -->
 
     <!-- 1990s - Cy -->
-    <section id="yr1990s">
+    <section id="section_90s">
       <div class="heading">
         <div class="left">
           <h1 class="headline">1990</h1>
@@ -92,10 +87,23 @@
         </div>
       </div>
       <div class="wrapper">
-        <div class="content">
-          <h2>add content</h2>
+        <div class="movies_90s all-movies">
+          <div class="movie" data-name="m-11">
+            <h2>Click me overlay</h2>
+          </div>
+          <div class="movie" data-name="m-12">
+            <h2>Click me overlay</h2>
+          </div>
+          <div class="movie" data-name="m-13">
+            <h2>Click me overlay</h2>
+          </div>
+          <div class="movie" data-name="m-14">
+            <h2>Click me overlay</h2>
+          </div>
+         
         </div>
       </div>
+
     </section>
 
     <!-- 2000s -->
@@ -109,8 +117,8 @@
             class="mov_img"
           />
         </div>
-        <div class="movies_00s">
-          <div class="movie_1">
+        <div class="movies_00s all-movies">
+          <div class="movie">
             <div class="upper_part">
               <img src="Assets/Movie13.png" alt="" />
             </div>
@@ -220,10 +228,99 @@
     </section>
     <!-- 2020s -->
 
+    <!-- Showcase Movies -->
+    <div class="showcase">
+      
+      <div class="preview" data-target="m-11">
+        <div class="heading">
+          <img src="Assets/Preview11.png" alt="">
+          <div class="heading_content">
+            <div class="heading_title">
+              <h2>Princess Momonoke</h2>
+              <h3>
+               <span class="type">Genres:</span> Action, Adventure, Award Winning, Fantasy
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="movie_info">
+            <i class="fa-solid fa-xmark"></i>
+            <div class="left">
+              <img src="Assets/Movie11.png" alt="Princess Momonoke">
+            </div>
+            <div class="right">
+              <h4>
+                <span class="type">Year:</span> 1997
+              </h4>
+              <h4>
+                <span class="type">Duration:</span> 133 min
+              </h4>
+              <h4>
+                <span class="type">Directed By:</span> Hayao Miyazaki
+              </h4>
+              <h4>
+                <span class="type">Produced By:</span> Toshio Suzuki
+              </h4>
+              <h5>
+                On a journey to find the cure for a Tatarigami's curse, Ashitaka finds himself in the 
+                middle of a war between the forest gods and Tatara, a mining colony. In this quest 
+                he also meets San, the Mononoke Hime.
+              </h5>
+              <div class="buttons">
+                <a href="https://www.imdb.com/title/tt0119698/?ref_=ttls_li_tt" class="link1" target="_blank"><i class="fa-brands fa-imdb links"></i>IMDB</a>
+                <a href="https://ghiblicollection.com/products/princess-mononoke" class="link2" target="_blank"><i class="fa-solid fa-cart-shopping links"></i>Purchase Movie</a>
+                <a href="https://www.youtube.com/watch?v=4OiMOHRDs14&t" class="link3" target="_blank"><i class="fa-brands fa-youtube links"></i>View Trailer</a>
+              </div>
+            </div>
+          </div>
+          <div class="characters">
+            <div class="title">
+              <h1>Main Characters</h1>
+            </div>
+            <div class="character">
+              <div class="char_box">
+                <img src="Assets/Movie11_M1.jpg" alt="San">
+                <h2>San</h2>
+                <p>
+                  San is known as Princess Mononoke, the 17-year-old girl, princess of
+                  spirits and beasts. When San was a baby, her parents, along with
+                  some other travelers, were attacked by the wolf goddess Moro. 
+                </p>
+              </div>
+              <div class="char_box">
+                <img src="Assets/Movie11_M2.jpg" alt="Ashitaka">
+                <h2>Ashitaka</h2>
+                <p>
+                  A prince of the Emishi tribe, Ashitaka is cursed in combat with a 
+                  demonic boar. His only hope for a cure is to return to the forested 
+                  land from which the boar-god originally came and discover what rage 
+                  infected it.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview" data-target="m-12">
+        <i class="fa-solid fa-xmark"></i>
+        <img src="Assets/Movie12.png" alt="Movie12">
+        <h3>Movie 12</h3>
+        <p>Ey ey ey description</p>
+        <div class="buttons">
+          <a href="#" class="link1">link 1</a>
+          <a href="#" class="link2">link 2</a>
+          <a href="#" class="link3">link 3</a>
+        </div>
+      </div>
+    </div>
+
     <!-- Footer -->
     <footer></footer>
 
     <!-- Scripts -->
     <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/e2d5898c84.js" crossorigin="anonymous"></script>
   </body>
 </html>
