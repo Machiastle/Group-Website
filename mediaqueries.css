@@ -7,6 +7,8 @@
     display: flex;
     padding-right: 2rem;
   }
+  
+  .showcase .preview
 
   .showcase .preview .movie_info {
     flex-direction: column;
@@ -35,6 +37,16 @@
   }
 }
 
+@media screen and (max-width: 850px) {
+  .showcase {
+    width: 100vw;
+  }
+
+  .showcase .preview {
+    margin: 4rem 0;
+  }
+}
+
 @media screen and (max-width: 600px) {
   #profile {
     margin-top: -3rem;
@@ -58,8 +70,13 @@
     height: 6rem;
   }
 
+  .showcase {
+    width: 100vw;
+  }
+  
   .showcase .preview {
     width: 100%;
+    margin: 4rem 0;
   }
 
   .showcase .preview .movie_info {
