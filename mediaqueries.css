@@ -19,7 +19,7 @@
   }
 
   .showcase .character .char_box {
-    width: 75%;
+    width: 40%;
     height: 100%;
   }
 
@@ -45,6 +45,7 @@
   .showcase .preview {
     margin: 4rem 0;
   }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -88,5 +89,10 @@
 
   .showcase .character {
     flex-direction: column;
+  }
+
+  .showcase .character .char_box {
+    width: 75%;
+    height: 100%;
   }
 }

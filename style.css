@@ -382,7 +382,9 @@ nav ul li a:hover::after {
   justify-content: center;
   font-size: 16px;
 }
+
 /*2010s section*/
+
 .top_container_10s {
   position: relative;
   height: 50vh;
@@ -425,7 +427,9 @@ nav ul li a:hover::after {
   font-size: 13.5px;
   font-weight: bolder;
 }
+
 /* Showcase Movies Section */
+
 .showcase {
   position: fixed;
   top: 0;
@@ -438,6 +442,7 @@ nav ul li a:hover::after {
   justify-content: center;
   overflow-y: scroll;
   overflow-x: hidden;
+  z-index: 5;
   }
 
 .showcase .preview {
@@ -688,7 +693,9 @@ nav ul li a:hover::after {
   border: 5px double var(--dark-blue);
   border-radius: 30px;
 }
+
 /* Footer */
+
 footer {
   height: 30vh;
   background: var(--light-blue);
