@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Neuton:wght@700&family=Pacifico&family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 
 :root {
   --light-blue: #638ecb;
@@ -252,35 +252,43 @@ nav ul li a:hover::after {
   background-color: pink;
 }
 
-/* Footer */
-footer {
-  height: 30vh;
-  background: var(--light-blue);
-}
 /*2000s section*/
 .top_container {
   position: relative;
-  overflow: hidden; /* This hides any image overflow outside the container */
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  background: url(/Assets/Preview14.png) center/cover no-repeat;
+  background-size: cover;
+  border-radius: 10px;
 }
 
-.image_00s {
-  width: 100%;
-  height: 80%;
-  object-fit: cover;
-}
-.top_contents {
+.top_container::before {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 0;
 }
+
+.year,
+.mov_img {
+  position: relative;
+  z-index: 1;
+}
+
+.mov_img {
+  width: 40%;
+  height: 80%;
+}
+
 .year {
   font-size: 10rem;
   margin-right: 2rem;
@@ -289,51 +297,105 @@ footer {
 .mov_img {
   max-width: 100%;
   border-radius: 5rem;
+  margin-left: 10rem;
 }
 .movies_00s {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  justify-content: space-around;
 }
-.movie {
-  width: 30rem;
-  height: 40rem;
+.movie_1,
+.movie_2,
+.movie_3,
+.movie_4,
+.movie_5 {
+  width: 15rem;
+  height: 25rem;
   background-color: white;
-  border: 2px solid black;
+  border: 2px solid #638ecb;
   border-radius: 10px;
   box-sizing: border-box;
   margin: 2rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
+.movie_1:hover,
+.movie_2:hover,
+.movie_3:hover,
+.movie_4:hover,
+.movie_5:hover {
+  transform: translateY(-20px);
+}
+
 .upper_part {
-  flex: 1;
-  background-image: url("Assets/Movie13.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  height: 89%;
 }
-.img_pic {
-  width: 60%;
-  height: auto;
-  margin-left: 5rem;
-  margin-top: 2rem;
-  border-radius: 10px;
-  border: 2px solid black;
-  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4);
+.upper_part img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
 }
+
 .title,
 .year_00 {
   display: flex;
   justify-content: center;
+  font-size: 16px;
+}
+/*2010s section*/
+.top_container_10s {
+  position: relative;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  background: url(/Assets/Preview19.png) center/cover no-repeat;
+  background-size: cover;
+  border-radius: 10px;
 }
 
+.top_container_10s::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 0;
+}
+
+.movies_10s {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.title,
+.year_10,
+.title_long {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+}
+.title_long {
+  font-size: 13.5px;
+  font-weight: bolder;
+}
 /* Showcase Movies Section */
 .showcase {
   position: fixed;
-  top: 0; left: 0;
+  top: 0;
+  left: 0;
   min-height: 100vh;
   width: 100%;
-  background: rgba(0, 0, 0, .8);
+  background: rgba(0, 0, 0, 0.8);
   display: none;
   align-items: center;
   justify-content: center;
@@ -368,13 +430,14 @@ footer {
   display: flex;
   align-items: center;
   flex-direction: column;
-  top: 25px; left: 30px;
+  top: 25px;
+  left: 30px;
 }
 
 .showcase .heading_title h2 {
   align-items: center;
   color: white;
-  font-family: 'Staatliches', sans-serif;
+  font-family: "Staatliches", sans-serif;
   text-shadow: 1px 1px 7px #8b8b8b;
   font-size: 7em;
   line-height: 7rem;
@@ -391,7 +454,7 @@ footer {
 
 .showcase .preview .heading_content h3 {
   color: var(--dirty-white);
-  font-family: 'Courgette', sans-serif;
+  font-family: "Courgette", sans-serif;
   text-shadow: 1px 1px 7px #8b8b8b;
   font-size: 1rem;
   text-align: left;
@@ -438,7 +501,8 @@ footer {
 
 .showcase .preview .fa-xmark {
   position: absolute;
-  top: 2rem; right: 2rem;
+  top: 2rem;
+  right: 2rem;
   cursor: pointer;
   color: var(--dirty-white);
   font-size: 3rem;
@@ -464,7 +528,7 @@ footer {
 
 .showcase .preview h4 {
   color: var(--dirty-white);
-  font-family: 'Courgette', cursive;
+  font-family: "Courgette", cursive;
   padding: 0.5rem 0;
   font-size: 1rem;
   margin: 0 5rem 0rem;
@@ -496,7 +560,7 @@ footer {
   padding: 0.8rem;
   font-size: 1.2rem;
   color: var(--dark-gray);
-  border: .1rem solid var(--dark-gray);
+  border: 0.1rem solid var(--dark-gray);
   text-decoration: none;
 }
 
@@ -528,13 +592,13 @@ footer {
 .showcase .characters {
   height: 100%;
   position: relative;
-	width: 90%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	padding: 30px;
-	margin-top: 8%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin-top: 8%;
   background: var(--dark-gray);
   border: 5px outset var(--dark-gray);
 }
@@ -575,13 +639,18 @@ footer {
 
 .showcase .character .char_box p {
   color: var(--dark-gray);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1rem;
   margin: 1rem;
 }
 
 .showcase .character .char_box img {
   width: 50%;
-  border: 5px double  var(--dark-blue);
+  border: 5px double var(--dark-blue);
   border-radius: 30px;
+}
+/* Footer */
+footer {
+  height: 30vh;
+  background: var(--light-blue);
 }
