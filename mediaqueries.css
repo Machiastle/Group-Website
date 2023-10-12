@@ -8,7 +8,13 @@
     padding-right: 2rem;
   }
   
-  .showcase .preview
+  .showcase {
+    overflow-x: scroll;
+  }
+
+  .showcase .preview {
+    width: 100%;
+  }
 
   .showcase .preview .movie_info {
     flex-direction: column;
@@ -40,12 +46,12 @@
 @media screen and (max-width: 850px) {
   .showcase {
     width: 100vw;
+    overflow-x: hidden;
   }
 
   .showcase .preview {
     margin: 4rem 0;
   }
-
 }
 
 @media screen and (max-width: 600px) {
