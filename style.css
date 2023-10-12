@@ -31,7 +31,7 @@ body {
 
 .wrapper {
   width: 90%;
-  padding: 0 90px;
+  padding: 0 70px;
 }
 
 /* Navigation */
@@ -313,6 +313,7 @@ nav ul li a:hover::after {
 .movies_90s > div {
   margin: 10px;
 }
+
 /*2000s section*/
 .top_container {
   position: relative;
@@ -349,7 +350,6 @@ nav ul li a:hover::after {
   width: 40%;
   height: 80%;
 }
-
 .year {
   font-size: 10rem;
   margin-right: 2rem;
@@ -364,7 +364,6 @@ nav ul li a:hover::after {
   display: flex;
   justify-content: center;
   justify-content: space-around;
-}
 
 .upper_part {
   height: 89%;
@@ -384,7 +383,6 @@ nav ul li a:hover::after {
 }
 
 /*2010s section*/
-
 .top_container_10s {
   position: relative;
   height: 50vh;
