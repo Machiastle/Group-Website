@@ -219,7 +219,7 @@ nav ul li a:hover::after {
 .profile-description {
   flex-basis: 40%;
   margin-top: 4.5rem;
-
+  margin-left: -3rem;
   text-align: justify;
 }
 
