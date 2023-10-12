@@ -7,6 +7,14 @@
     display: flex;
     padding-right: 2rem;
   }
+  
+  .showcase {
+    overflow-x: scroll;
+  }
+
+  .showcase .preview {
+    width: 100%;
+  }
 
   .showcase .preview .movie_info {
     flex-direction: column;
@@ -17,7 +25,7 @@
   }
 
   .showcase .character .char_box {
-    width: 75%;
+    width: 40%;
     height: 100%;
   }
 
@@ -32,6 +40,17 @@
 
   .showcase .preview .heading_content h3 {
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .showcase {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .showcase .preview {
+    margin: 4rem 0;
   }
 }
 
@@ -61,8 +80,13 @@
     height: 6rem;
   }
 
+  .showcase {
+    width: 100vw;
+  }
+  
   .showcase .preview {
     width: 100%;
+    margin: 4rem 0;
   }
 
   .showcase .preview .movie_info {
@@ -71,5 +95,10 @@
 
   .showcase .character {
     flex-direction: column;
+  }
+
+  .showcase .character .char_box {
+    width: 75%;
+    height: 100%;
   }
 }
