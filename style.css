@@ -304,7 +304,15 @@ nav ul li a:hover::after {
 #section_90s .content {
   background-color: pink;
 }
-
+.movies_90s {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: safe;
+}
+.movies_90s > div {
+  margin: 10px;
+}
 /*2000s section*/
 .top_container {
   position: relative;
@@ -356,30 +364,6 @@ nav ul li a:hover::after {
   display: flex;
   justify-content: center;
   justify-content: space-around;
-}
-.movie_1,
-.movie_2,
-.movie_3,
-.movie_4,
-.movie_5 {
-  width: 15rem;
-  height: 25rem;
-  background-color: white;
-  border: 2px solid #638ecb;
-  border-radius: 10px;
-  box-sizing: border-box;
-  margin: 2rem 0 2rem;
-  display: flex;
-  flex-direction: column;
-  transition: transform 0.3s ease;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-}
-.movie_1:hover,
-.movie_2:hover,
-.movie_3:hover,
-.movie_4:hover,
-.movie_5:hover {
-  transform: translateY(-20px);
 }
 
 .upper_part {
