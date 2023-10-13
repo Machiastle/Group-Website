@@ -1,0 +1,104 @@
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: flex;
+    padding-right: 2rem;
+  }
+  
+  .showcase {
+    overflow-x: scroll;
+  }
+
+  .showcase .preview {
+    width: 100%;
+  }
+
+  .showcase .preview .movie_info {
+    flex-direction: column;
+  }
+
+  .showcase .character {
+    flex-direction: column;
+  }
+
+  .showcase .character .char_box {
+    width: 40%;
+    height: 100%;
+  }
+
+  .showcase .characters .title {
+    font-size: 1.5rem;
+  }
+
+  .showcase .heading_title h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  .showcase .preview .heading_content h3 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .showcase {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .showcase .preview {
+    margin: 4rem 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #profile {
+    margin-top: -3rem;
+  }
+
+  .profile-title {
+    font-size: 1.5rem;
+  }
+
+  .profile-description {
+    font-size: 10px;
+    flex-basis: 29%;
+    margin-top: -1rem;
+    margin-left: -5rem;
+  }
+
+  .profile-logo {
+    margin-right: -1rem;
+    margin-top: 7rem;
+    margin-right: 2.3rem;
+  }
+
+  .profile-logo img {
+    height: 6rem;
+  }
+
+  .showcase {
+    width: 100vw;
+  }
+  
+  .showcase .preview {
+    width: 100%;
+    margin: 4rem 0;
+  }
+
+  .showcase .preview .movie_info {
+    flex-direction: column;
+  }
+
+  .showcase .character {
+    flex-direction: column;
+  }
+
+  .showcase .character .char_box {
+    width: 75%;
+    height: 100%;
+  }
+}
