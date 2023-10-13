@@ -31,7 +31,7 @@ body {
 
 .wrapper {
   width: 90%;
-  padding: 0 90px;
+  padding: 0 70px;
 }
 
 /* Navigation */
@@ -247,6 +247,16 @@ nav ul li a:hover::after {
   background: url(/Assets/Preview4.png) center/cover no-repeat;
   background-size: cover;
   border-radius: 10px;
+}
+.top_container1980::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 0;
 }
 
 .mov_img1 {
