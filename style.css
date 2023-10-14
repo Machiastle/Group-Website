@@ -31,7 +31,7 @@ body {
 
 .wrapper {
   width: 90%;
-  padding: 0 90px;
+  padding: 0 70px;
 }
 
 /* Navigation */
@@ -489,7 +489,7 @@ nav ul li a:hover::after {
   position: fixed;
   top: 0;
   left: 0;
-  height:fit-content;
+  height: fit-content;
   min-height: 100%;
   width: 100%;
   background: rgba(0, 0, 0, 0.8);
