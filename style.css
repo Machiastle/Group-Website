@@ -31,7 +31,7 @@ body {
 
 .wrapper {
   width: 90%;
-  padding: 0 90px;
+  padding: 0 70px;
 }
 
 /* Navigation */
@@ -502,7 +502,7 @@ nav ul li a:hover::after {
 .showcase .preview {
   margin: 4rem 0;
   height: calc(100vh - 8rem);
-  overflow-y: auto; 
+  overflow-y: auto;
   scrollbar-color: var(--light-blue) var(--darker-blue);
   scrollbar-width: thin;
   display: none;
