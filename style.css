@@ -250,6 +250,7 @@ nav ul li a:hover::after {
   background-size: cover;
   border-radius: 10px;
 }
+
 .top_container1980::before {
   content: "";
   position: absolute;
@@ -288,7 +289,9 @@ nav ul li a:hover::after {
 /* 1990s Section */
 
 #section_90s {
-  height: 170vh;
+  height: 150%;
+  min-height: 130vh;
+  padding-bottom: 20vh;
   background-color: var(--dirty-white);
 }
 
@@ -312,11 +315,47 @@ nav ul li a:hover::after {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  justify-content: safe;
 }
 
 .movies_90s > div {
-  margin: 10px;
+  margin: 20px 50px;
+}
+
+.movies_90s .movie {
+  padding-bottom: 10px;
+}
+
+.movies_90s .lower_part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.top_container_90s {
+  position: relative;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  background: url(/Assets/Preview11.png) center/cover no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.top_container_90s::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 0;
 }
 
 /*2000s section*/
