@@ -444,7 +444,7 @@ nav ul li a:hover::after {
   position: fixed;
   top: 0;
   left: 0;
-  min-height: 100vh;
+  min-height: 100%;
   width: 100%;
   background: rgba(0, 0, 0, 0.8);
   display: none;
@@ -456,7 +456,7 @@ nav ul li a:hover::after {
 }
 
 .showcase .preview {
-  margin: 4rem;
+  margin: 4rem 0;
   height: calc(100vh - 8rem);
   display: none;
   text-align: center;
@@ -547,9 +547,9 @@ nav ul li a:hover::after {
 
 .showcase .preview .left img {
   height: auto;
-  width: 55vw;
-  max-width: 100%;
-  min-width: 20rem;
+  width: auto;
+  min-width: 15rem;
+  max-height: 30rem;
   border: 5px outset var(--dirty-white);
 }
 
