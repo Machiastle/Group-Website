@@ -525,6 +525,7 @@ nav ul li a:hover::after {
   padding: 2rem;
   background: var(--darker-blue);
   margin-bottom: 4rem;
+  height: auto;
 }
 
 .showcase .preview .movie_info {
