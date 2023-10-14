@@ -541,7 +541,7 @@ nav ul li a:hover::after {
 
 .showcase .preview .left img {
   height: auto;
-  width: 50vw;
+  width: 30rem;
   max-width: 100%;
   min-width: 20rem;
   border: 5px outset var(--dirty-white);
