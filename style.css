@@ -504,6 +504,8 @@ nav ul li a:hover::after {
   margin: 4rem 0;
   height: calc(100vh - 8rem);
   overflow-y: auto;
+  scrollbar-color: var(--light-blue) var(--darker-blue);
+  scrollbar-width: thin;
   display: none;
   text-align: center;
   align-items: center;
@@ -576,7 +578,7 @@ nav ul li a:hover::after {
   text-align: center;
   padding: 2rem;
   background: var(--darker-blue);
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   height: auto;
 }
 
