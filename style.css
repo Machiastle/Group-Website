@@ -496,14 +496,14 @@ nav ul li a:hover::after {
   display: none;
   align-items: center;
   justify-content: center;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  overflow: hidden;
   z-index: 5;
 }
 
 .showcase .preview {
   margin: 4rem 0;
   height: calc(100vh - 8rem);
+  overflow-y: auto;
   display: none;
   text-align: center;
   align-items: center;
