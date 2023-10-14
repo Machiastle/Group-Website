@@ -31,7 +31,7 @@ body {
 
 .wrapper {
   width: 90%;
-  padding: 0 70px;
+  padding: 0 90px;
 }
 
 /* Navigation */
@@ -368,7 +368,6 @@ nav ul li a:hover::after {
   background: rgba(0, 0, 0, 0.7);
   z-index: 0;
 }
-
 /*2000s section*/
 
 .top_container {
