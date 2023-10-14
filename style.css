@@ -490,6 +490,7 @@ nav ul li a:hover::after {
   top: 0;
   left: 0;
   height: fit-content;
+  min-height: 100%;
   width: 100%;
   background: rgba(0, 0, 0, 0.8);
   display: none;
