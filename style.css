@@ -224,10 +224,12 @@ nav ul li a:hover::after {
 }
 
 /* Generation Section */
+
 .headline {
   color: var(--dirty-white);
   font-size: 14vw;
 }
+
 /*1980s section*/
 
 #section_80s {
@@ -259,16 +261,6 @@ nav ul li a:hover::after {
   z-index: 0;
 }
 
-.mov_img1 {
-  width: 40%;
-  height: 95%;
-  position: relative;
-  z-index: 1;
-  max-width: 100%;
-  border-radius: 5rem;
-  margin-left: 10rem;
-}
-
 .movies_80s {
   display: flex;
   justify-content: center;
@@ -294,6 +286,7 @@ nav ul li a:hover::after {
 }
 
 /* 1990s Section */
+
 #section_90s {
   height: 170vh;
   background-color: var(--dirty-white);
@@ -314,16 +307,20 @@ nav ul li a:hover::after {
 #section_90s .content {
   background-color: pink;
 }
+
 .movies_90s {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   justify-content: safe;
 }
+
 .movies_90s > div {
   margin: 10px;
 }
+
 /*2000s section*/
+
 .top_container {
   position: relative;
   height: 50vh;
@@ -353,6 +350,10 @@ nav ul li a:hover::after {
 .mov_img {
   position: relative;
   z-index: 1;
+  max-width: 100%;
+  border-radius: 5rem;
+  margin-left: 10rem;
+  object-fit: cover;
 }
 
 .mov_img {
@@ -365,11 +366,6 @@ nav ul li a:hover::after {
   margin-right: 2rem;
 }
 
-.mov_img {
-  max-width: 100%;
-  border-radius: 5rem;
-  margin-left: 10rem;
-}
 .movies_00s {
   display: flex;
   justify-content: center;
