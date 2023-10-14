@@ -437,6 +437,7 @@ nav ul li a:hover::after {
   align-items: center;
   justify-content: center;
   overflow-y: scroll;
+  z-index: 5;
 }
 
 .showcase .preview {
