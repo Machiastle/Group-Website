@@ -345,6 +345,7 @@ nav ul li a:hover::after {
   background: url(/Assets/Preview11.png) center/cover no-repeat;
   background-size: cover;
   border-radius: 10px;
+  margin-bottom: 25px;
 }
 
 .top_container_90s::before {
