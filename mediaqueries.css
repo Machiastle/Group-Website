@@ -7,10 +7,6 @@
     display: flex;
     padding-right: 2rem;
   }
-  
-  .showcase {
-    overflow-x: scroll;
-  }
 
   .showcase .preview {
     width: 100%;
@@ -18,6 +14,10 @@
 
   .showcase .preview .movie_info {
     flex-direction: column;
+  }
+
+  .showcase .preview .left img {
+    width: 10rem;
   }
 
   .showcase .character {
@@ -45,10 +45,18 @@
 @media screen and (max-width: 850px) {
   .showcase {
     width: 100%;
+    margin: 0;
+    padding: 0;
   }
   
   .showcase .preview {
-    width: 100%;
+    width: calc(100% - 50px);
+    margin: 0;
+    padding: 0;
+  }
+
+  .showcase .preview .left img {
+    width: 10rem;
   }
 
   .showcase .preview .movie_info {
@@ -98,9 +106,17 @@
   }
   
   .showcase .preview {
-    width: 100%;
+    width: calc(100% - 100px);
     margin: 0;
     padding: 0;
+  }
+
+  .showcase .preview .left img {
+    width: 10rem;
+  }
+
+  .showcase .characters {
+    width: 80%;
   }
 
   .showcase .preview .movie_info {
