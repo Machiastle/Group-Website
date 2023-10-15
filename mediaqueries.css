@@ -209,7 +209,6 @@
 
   .top_container_90s {
     height: 30vh;
-    width: 115vw;
   }
 
   .mov_img_90s {
@@ -226,7 +225,6 @@
 
   .top_container {
     height: 30vh;
-    width: 115vw;
   }
 
   .mov_img {
@@ -246,6 +244,5 @@
   /*2010s section*/
   .top_container_10s {
     height: 30vh;
-    width: 115vw;
   }
 }
