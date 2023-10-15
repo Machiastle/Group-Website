@@ -8,6 +8,20 @@
     padding-right: 2rem;
   }
 
+  #profile {
+    margin-top: -5rem;
+    height: 60vh;
+  }
+
+  .profile-logo {
+    margin-top: 11.5rem;
+    margin-right: -3rem;
+  }
+
+  .profile-logo img {
+    height: 13rem;
+  }
+
   /*1980s section*/
 
   .top_container1980 {
@@ -81,6 +95,25 @@
 }
 
 @media screen and (max-width: 850px) {
+  #hamburger-nav {
+    display: flex;
+    padding-right: 2rem;
+  }
+
+  #profile {
+    margin-top: -3rem;
+    height: 72vh;
+  }
+
+  .profile-logo {
+    margin-top: 13rem;
+    margin-right: -1.5rem;
+  }
+
+  .profile-logo img {
+    height: 10rem;
+  }
+
   .showcase {
     width: 100%;
   }
@@ -116,13 +149,12 @@
     font-size: 10px;
     flex-basis: 29%;
     margin-top: -1rem;
-    margin-left: -5rem;
+    margin-left: -4rem;
   }
 
   .profile-logo {
-    margin-right: -1rem;
     margin-top: 7rem;
-    margin-right: 2.3rem;
+    margin-right: 1rem;
   }
 
   .profile-logo img {
@@ -130,6 +162,10 @@
   }
 
   /*1980s section*/
+
+  #section_80s {
+    margin-top: -9rem;
+  }
 
   .top_container1980 {
     height: 30vh;
@@ -203,6 +239,31 @@
 }
 
 @media screen and (max-width: 300px) {
+  .logo-hamburger {
+    font-size: 1rem;
+  }
+
+  .hamburger-nav img {
+    height: 0.5rem;
+  }
+
+  .hamburger-icon {
+    margin-top: 0.5rem;
+    height: 15px;
+  }
+
+  #profile {
+    height: 97vh;
+  }
+
+  .profile-logo {
+    margin-top: 8rem;
+  }
+
+  .profile-logo img {
+    height: 4.5rem;
+  }
+
   /*1980s section*/
 
   .top_container1980 {
