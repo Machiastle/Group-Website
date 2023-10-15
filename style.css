@@ -250,16 +250,6 @@ nav ul li a:hover::after {
   background-size: cover;
   border-radius: 10px;
 }
-.top_container1980::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
-  z-index: 0;
-}
 
 .top_container1980::before {
   content: "";
@@ -274,8 +264,12 @@ nav ul li a:hover::after {
 
 .movies_80s {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  justify-content: space-around;
+}
+
+.movies_90s > div {
+  margin: 20px 50px;
 }
 
 .movie {
@@ -290,6 +284,15 @@ nav ul li a:hover::after {
   flex-direction: column;
   transition: transform 0.3s ease;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  padding-bottom: 10px;
+}
+
+.lower_part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
 }
 
 .movie:hover {
