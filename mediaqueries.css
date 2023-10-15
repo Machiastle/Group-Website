@@ -7,7 +7,7 @@
     display: flex;
     padding-right: 2rem;
   }
-  
+
   .showcase {
     overflow-x: scroll;
   }
@@ -46,7 +46,7 @@
   .showcase {
     width: 100%;
   }
-  
+
   .showcase .preview {
     width: 100%;
   }
@@ -96,7 +96,7 @@
     margin: 0;
     padding: 0;
   }
-  
+
   .showcase .preview {
     width: 100%;
     margin: 0;

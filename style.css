@@ -417,10 +417,22 @@ nav ul li a:hover::after {
 
 .movies_00s {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  justify-content: space-around;
 }
-
+.movies_00s > div {
+  margin: 20px 50px;
+}
+.movies_00s .movie {
+  padding-bottom: 10px;
+}
+.movies_00s .lower_part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
 .upper_part {
   height: 89%;
 }
@@ -431,10 +443,7 @@ nav ul li a:hover::after {
   border-radius: 8px;
 }
 
-.title,
-.year_00 {
-  display: flex;
-  justify-content: center;
+.title {
   font-size: 16px;
 }
 
@@ -467,11 +476,23 @@ nav ul li a:hover::after {
 
 .movies_10s {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  justify-content: space-around;
 }
-
-.title,
+.movies_10s > div {
+  margin: 20px 50px;
+}
+.movies_10s .movie {
+  padding-bottom: 10px;
+}
+.movies_10s .lower_part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+/* .title,
 .year_10,
 .title_long {
   display: flex;
@@ -481,7 +502,7 @@ nav ul li a:hover::after {
 .title_long {
   font-size: 13.5px;
   font-weight: bolder;
-}
+} */
 
 /* Showcase Movies Section */
 
