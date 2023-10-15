@@ -8,46 +8,44 @@
     padding-right: 2rem;
   }
 
+  /*1980s section*/
+
+  .top_container1980 {
+    height: 30vh;
+  }
+
   /*1990s section*/
 
   .top_container_90s {
     height: 30vh;
   }
 
-  .mov_img_90s {
+  .mov_img {
     margin-left: 0rem;
+    width: 45%;
+    height: 80%;
   }
   .year_90s {
     margin-left: 1.5rem;
   }
-  .mov_img_90s {
-    width: 45%;
-    height: 80%;
-  }
+
   /*2000s section*/
 
   .top_container {
     height: 30vh;
   }
 
-  .mov_img {
-    margin-left: 0rem;
-  }
   .year {
     margin-left: 1.5rem;
-  }
-  .mov_img {
-    width: 45%;
-    height: 80%;
-  }
-
-  .year {
     font-size: 5rem;
   }
+
   /*2010s section*/
+
   .top_container_10s {
     height: 30vh;
   }
+
   .showcase {
     overflow-x: scroll;
   }
@@ -131,22 +129,22 @@
     height: 6rem;
   }
 
+  /*1980s section*/
+
+  .top_container1980 {
+    height: 30vh;
+  }
+
   /*1990s section*/
 
   .top_container_90s {
     height: 30vh;
   }
 
-  .mov_img_90s {
-    margin-left: 0rem;
-  }
   .year_90s {
     margin-left: 1.5rem;
   }
-  .mov_img_90s {
-    width: 54%;
-    height: 80%;
-  }
+
   /*2000s section*/
 
   .top_container {
@@ -155,26 +153,25 @@
 
   .mov_img {
     margin-left: 0rem;
-  }
-  .year {
-    margin-left: 1.5rem;
-  }
-  .mov_img_00s {
     width: 54%;
     height: 80%;
   }
-
   .year {
+    margin-left: 1.5rem;
     font-size: 2.5rem;
   }
+
   /*2010s section*/
+
   .top_container_10s {
     height: 30vh;
   }
+
   #section_10s .mov_img {
     width: 55%;
     height: 80%;
   }
+
   #section_10s .year {
     margin-left: 1.5rem;
   }
@@ -204,43 +201,40 @@
     height: 100%;
   }
 }
+
 @media screen and (max-width: 300px) {
+  /*1980s section*/
+
+  .top_container1980 {
+    height: 30vh;
+  }
+
   /*1990s section*/
 
   .top_container_90s {
     height: 30vh;
   }
 
-  .mov_img_90s {
+  .mov_img {
     margin-left: 0rem;
+    width: 54%;
+    height: 80%;
   }
   .year_90s {
     margin-left: 1.5rem;
   }
-  .mov_img_90s {
-    width: 54%;
-    height: 80%;
-  }
+
   /*2000s section*/
 
   .top_container {
     height: 30vh;
   }
 
-  .mov_img {
-    margin-left: 0rem;
-  }
   .year {
     margin-left: 1.5rem;
-  }
-  .mov_img_00s {
-    width: 54%;
-    height: 80%;
-  }
-
-  .year {
     font-size: 2.5rem;
   }
+
   /*2010s section*/
   .top_container_10s {
     height: 30vh;
