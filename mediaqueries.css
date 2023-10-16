@@ -60,16 +60,16 @@
     height: 30vh;
   }
 
-  .showcase {
-    overflow-x: scroll;
-  }
-
   .showcase .preview {
     width: 100%;
   }
 
   .showcase .preview .movie_info {
     flex-direction: column;
+  }
+
+  .showcase .preview .left img {
+    width: 10rem;
   }
 
   .showcase .character {
@@ -116,10 +116,18 @@
 
   .showcase {
     width: 100%;
+    margin: 0;
+    padding: 0;
   }
 
   .showcase .preview {
     width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .showcase .preview .left img {
+    width: 10rem;
   }
 
   .showcase .preview .movie_info {
@@ -222,6 +230,14 @@
     width: 100%;
     margin: 0;
     padding: 0;
+  }
+
+  .showcase .preview .left img {
+    width: 10rem;
+  }
+
+  .showcase .characters {
+    width: 80%;
   }
 
   .showcase .preview .movie_info {
