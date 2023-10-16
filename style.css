@@ -239,18 +239,18 @@ nav ul li a:hover::after {
   font-size: 1rem;
 }
 
-.about-header {
+/* .about-header {
   display: flex;
   height: 28rem;
-}
+} */
 /*Image here*/
-/* .about-header img {
+.about-header img {
   width: 100vw;
   display: flex;
-} */
+}
 .about-title {
   font-family: "Neuton", serif;
-  color: rgb(0, 0, 0);
+  color: #346fbf;
   font-size: 5rem;
   font-weight: 600;
   margin-bottom: 1rem;
@@ -264,7 +264,7 @@ nav ul li a:hover::after {
 
 .about-founder-title {
   font-family: "Neuton", serif;
-  color: rgb(0, 0, 0);
+  color: #346fbf;
   font-size: 2.5rem;
   font-weight: 300;
   margin-bottom: 2rem;
@@ -332,7 +332,7 @@ nav ul li a:hover::after {
 
 .about-foundedTitle {
   font-family: "Neuton", serif;
-  color: rgb(0, 0, 0);
+  color: #346fbf;
   font-size: 2.5rem;
   font-weight: 300;
   margin-bottom: 2rem;
@@ -349,7 +349,7 @@ nav ul li a:hover::after {
 
 .about-headquartersTitle {
   font-family: "Neuton", serif;
-  color: rgb(0, 0, 0);
+  color: #346fbf;
   font-size: 2.5rem;
   font-weight: 300;
   margin-bottom: 2rem;
@@ -358,6 +358,51 @@ nav ul li a:hover::after {
 .about-headquartersDescription {
   font-size: 1.3rem;
 }
+
+.footer-wrapper {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+.footer-line {
+  --tw-bg-opacity: 1;
+    background-color: rgba(52, 111, 191,var(--tw-bg-opacity));
+    width: 100vm;
+    height: 0.200rem;
+}
+
+.footer-content {
+  justify-content: space-between;
+  flex-direction: row;
+  display: flex;
+  box-sizing: border-box;
+} 
+
+.footer-name{
+  margin-top: 1rem;
+}
+
+.footer-socmed {
+  --tw-space-y-reverse: 0;
+    margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+    align-items: center;
+    flex-direction: row;
+    gap: 0.5rem;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.social-media img{
+  width: 1.50rem;
+  height: 1.50rem;
+}
+
+
 
 /* Generation Section */
 .headline {
