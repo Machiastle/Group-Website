@@ -250,16 +250,6 @@ nav ul li a:hover::after {
   background-size: cover;
   border-radius: 10px;
 }
-.top_container1980::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
-  z-index: 0;
-}
 
 .top_container1980::before {
   content: "";
@@ -274,8 +264,12 @@ nav ul li a:hover::after {
 
 .movies_80s {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  justify-content: space-around;
+}
+
+.movies_80s > div {
+  margin: 20px 50px;
 }
 
 .movie {
@@ -290,6 +284,15 @@ nav ul li a:hover::after {
   flex-direction: column;
   transition: transform 0.3s ease;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  padding-bottom: 10px;
+}
+
+.lower_part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
 }
 
 .movie:hover {
@@ -417,10 +420,22 @@ nav ul li a:hover::after {
 
 .movies_00s {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  justify-content: space-around;
 }
-
+.movies_00s > div {
+  margin: 20px 50px;
+}
+.movies_00s .movie {
+  padding-bottom: 10px;
+}
+.movies_00s .lower_part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
 .upper_part {
   height: 89%;
 }
@@ -431,10 +446,7 @@ nav ul li a:hover::after {
   border-radius: 8px;
 }
 
-.title,
-.year_00 {
-  display: flex;
-  justify-content: center;
+.title {
   font-size: 16px;
 }
 
@@ -467,20 +479,21 @@ nav ul li a:hover::after {
 
 .movies_10s {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  justify-content: space-around;
 }
-
-.title,
-.year_10,
-.title_long {
+.movies_10s > div {
+  margin: 20px 50px;
+}
+.movies_10s .movie {
+  padding-bottom: 10px;
+}
+.movies_10s .lower_part {
   display: flex;
   justify-content: center;
-  font-size: 16px;
-}
-.title_long {
-  font-size: 13.5px;
-  font-weight: bolder;
+  align-items: center;
+  text-align: center;
+  height: 100%;
 }
 
 /* Showcase Movies Section */
