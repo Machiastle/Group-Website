@@ -223,6 +223,35 @@ nav ul li a:hover::after {
   text-align: justify;
 }
 
+/* About Section */
+
+/* #about {
+  margin-top: 2rem;
+  margin-left: 3rem;
+  margin-right: 25rem;
+} */
+
+.about-description {
+  margin-top: 2rem;
+  margin-left: 3rem;
+  margin-right: 20rem;
+  text-align: justify;
+}
+
+.about-header {
+  display: flex;
+  height: 28rem;
+}
+
+.about-title {
+  font-family: "Neuton", serif;
+  color: rgb(0, 0, 0);
+  font-size: 5rem;
+  font-weight: 600;
+  padding-bottom: 2px;
+}
+
+
 /* Generation Section */
 .headline {
   color: var(--dirty-white);
