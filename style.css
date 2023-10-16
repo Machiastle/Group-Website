@@ -243,7 +243,11 @@ nav ul li a:hover::after {
   display: flex;
   height: 28rem;
 }
-
+/*Image here*/
+/* .about-header img {
+  width: 100vw;
+  display: flex;
+} */
 .about-title {
   font-family: "Neuton", serif;
   color: rgb(0, 0, 0);
@@ -253,12 +257,12 @@ nav ul li a:hover::after {
 }
 
 .about-founder {
- position: relative;
- margin-top: 3rem;
- margin-left: 3rem;
+  position: relative;
+  margin-top: 3rem;
+  margin-left: 3rem;
 }
 
-.about-founder-title{
+.about-founder-title {
   font-family: "Neuton", serif;
   color: rgb(0, 0, 0);
   font-size: 2.5rem;
@@ -266,16 +270,16 @@ nav ul li a:hover::after {
   margin-bottom: 2rem;
 }
 
-.about-founderList{
+.about-founderList {
   display: grid;
-  grid-template-columns: repeat(2,2fr);
+  grid-template-columns: repeat(2, 2fr);
   grid-row-gap: 1.5rem;
   grid-auto-flow: row;
   grid-auto-rows: auto;
   justify-content: center;
 }
 
-.about-foundingMember{
+.about-foundingMember {
   display: grid;
   grid-template-columns: max-content auto;
   grid-column-gap: 25px;
@@ -298,7 +302,7 @@ nav ul li a:hover::after {
   top: auto;
   /* bottom:calc(100%+5px); */
   /* left: 50%; */
-  margin-left: 9rem; 
+  margin-left: 9rem;
   opacity: 0;
   transition: opacity 0.3s;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
@@ -309,7 +313,7 @@ nav ul li a:hover::after {
   opacity: 1;
 }
 
-.about-foundingMemberInfo{
+.about-foundingMemberInfo {
   padding-top: 4px;
   display: flex;
   align-items: flex-start;
@@ -317,16 +321,16 @@ nav ul li a:hover::after {
   justify-content: center;
 }
 
-.about-foundingMemberName{
+.about-foundingMemberName {
   font-size: 1.2rem;
 }
 
-.about-founded{
+.about-founded {
   margin-top: 3rem;
   margin-left: 3rem;
 }
 
-.about-foundedTitle{
+.about-foundedTitle {
   font-family: "Neuton", serif;
   color: rgb(0, 0, 0);
   font-size: 2.5rem;
@@ -334,16 +338,16 @@ nav ul li a:hover::after {
   margin-bottom: 2rem;
 }
 
-.about-foundedDescription{
+.about-foundedDescription {
   font-size: 1.3rem;
 }
 
-.about-headquarters{
+.about-headquarters {
   margin-top: 3rem;
   margin-left: 3rem;
 }
 
-.about-headquartersTitle{
+.about-headquartersTitle {
   font-family: "Neuton", serif;
   color: rgb(0, 0, 0);
   font-size: 2.5rem;
@@ -351,7 +355,7 @@ nav ul li a:hover::after {
   margin-bottom: 2rem;
 }
 
-.about-headquartersDescription{
+.about-headquartersDescription {
   font-size: 1.3rem;
 }
 
@@ -575,7 +579,7 @@ nav ul li a:hover::after {
   overflow-y: scroll;
   overflow-x: hidden;
   z-index: 5;
-  }
+}
 
 .showcase .preview {
   margin: 4rem;
