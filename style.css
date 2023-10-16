@@ -321,6 +321,40 @@ nav ul li a:hover::after {
   font-size: 1.2rem;
 }
 
+.about-founded{
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+.about-foundedTitle{
+  font-family: "Neuton", serif;
+  color: rgb(0, 0, 0);
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.about-foundedDescription{
+  font-size: 1.3rem;
+}
+
+.about-headquarters{
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+.about-headquartersTitle{
+  font-family: "Neuton", serif;
+  color: rgb(0, 0, 0);
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.about-headquartersDescription{
+  font-size: 1.3rem;
+}
+
 /* Generation Section */
 .headline {
   color: var(--dirty-white);
