@@ -223,12 +223,6 @@ nav ul li a:hover::after {
 
 /* About Section */
 
-/* #about {
-  margin-top: 2rem;
-  margin-left: 3rem;
-  margin-right: 25rem;
-} */
-
 .about-description {
   margin-top: 2rem;
   margin-left: 3rem;
@@ -237,11 +231,6 @@ nav ul li a:hover::after {
   font-size: 1rem;
 }
 
-/* .about-header {
-  display: flex;
-  height: 28rem;
-} */
-/*Image here*/
 .about-header img {
   width: 100vw;
   display: flex;
@@ -298,8 +287,6 @@ nav ul li a:hover::after {
   position: absolute;
   z-index: 1;
   top: auto;
-  /* bottom:calc(100%+5px); */
-  /* left: 50%; */
   margin-left: 9rem;
   opacity: 0;
   transition: opacity 0.3s;
@@ -357,31 +344,37 @@ nav ul li a:hover::after {
   font-size: 1.3rem;
 }
 
+/* Footer */
+
 .footer-wrapper {
-  padding-top: 4rem;
-  padding-bottom: 3rem;
+  margin-top: 3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   width: 100%;
   box-sizing: border-box;
   padding-right: 3rem;
   padding-left: 3rem;
+  background-color: #346fbf;
 }
 
-.footer-line {
+/* .footer-line {
   --tw-bg-opacity: 1;
     background-color: rgba(52, 111, 191,var(--tw-bg-opacity));
     width: 100vm;
     height: 0.200rem;
-}
+} */
 
 .footer-content {
-  justify-content: space-between;
-  flex-direction: row;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   box-sizing: border-box;
 } 
 
 .footer-name{
   margin-top: 1rem;
+  color: white;
 }
 
 .footer-socmed {
@@ -399,7 +392,6 @@ nav ul li a:hover::after {
   width: 1.50rem;
   height: 1.50rem;
 }
-
 
 
 /* Generation Section */
@@ -668,6 +660,52 @@ nav ul li a:hover::after {
   padding-bottom: 10px;
 }
 .movies_10s .lower_part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+/*2020s section*/
+
+.top_container_20s {
+  position: relative;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  background: url(/Assets/Preview24.png) center/cover no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.top_container_20s::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 0;
+}
+
+.movies_20s {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.movies_20s > div {
+  margin: 20px 50px;
+}
+.movies_20s .movie {
+  padding-bottom: 10px;
+}
+.movies_20s .lower_part {
   display: flex;
   justify-content: center;
   align-items: center;
