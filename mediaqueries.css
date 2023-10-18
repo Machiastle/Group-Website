@@ -4,8 +4,13 @@
     padding-bottom: 150px;
     height: 100vh;
   }
+  
   .profile-container {
     padding: 70px 10%;
+  }
+  
+  .showcase .preview {
+    width: 100%;
   }
 }
 @media screen and (max-width: 1200px) {

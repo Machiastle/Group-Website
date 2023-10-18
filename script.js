@@ -30,3 +30,20 @@ previewBox.forEach(close => {
     previewMovies.style.display = 'none';
   };
 });
+
+// Fade
+/* Fade Effects */
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    console.log(entry)
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+      } 
+      else {
+        entry.target.classList.remove('show');
+      }
+  });
+});
+
+const hiddenElements3 = document.querySelectorAll('.hidden');
+hiddenElements3.forEach((el) => observer.observe(el));  
