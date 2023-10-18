@@ -254,6 +254,9 @@ nav ul li a:hover::after {
 #section_80s {
   margin-bottom: 5rem;
   margin-top: -13rem;
+  height: 100%;
+  min-height: 80vh;
+  padding-bottom: 20vh;
 }
 
 .top_container1980 {
@@ -441,6 +444,9 @@ nav ul li a:hover::after {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  height: 100%;
+  min-height: 50vh;
+  padding-bottom: 20vh;
 }
 .movies_00s > div {
   margin: 20px 50px;
@@ -500,6 +506,8 @@ nav ul li a:hover::after {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  min-height: 50vh;
+  padding-bottom: 20vh;
 }
 .movies_10s > div {
   margin: 20px 50px;
