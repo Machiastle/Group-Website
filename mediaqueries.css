@@ -227,6 +227,19 @@
   .profile-description {
     order: 2; /* Set the text to appear after the image */
   }
+  .description-paragraph {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .founders-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .founders-member {
+    margin-bottom: 20px;
+  }
 
   /*1980s section*/
 
@@ -310,6 +323,13 @@
   .showcase .character .char_box {
     width: 75%;
     height: 100%;
+  }
+  /*footer*/
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }
 

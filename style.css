@@ -242,6 +242,180 @@ nav ul li a:hover::after {
   text-align: justify;
 }
 
+/* About Section */
+
+.about-description {
+  text-align: center; /* Center align the text within the div */
+}
+
+.about-title {
+  display: block; /* Make the title a block-level element */
+  font-size: 24px; /* Adjust the font size as needed */
+  margin-bottom: 10px; /* Add some spacing between the title and the paragraph */
+  margin-top: 10px;
+}
+.description-paragraph {
+  padding: 20px;
+}
+
+.about-header img {
+  width: 100%;
+  display: flex;
+}
+
+.about-title {
+  font-family: "Neuton", serif;
+  color: #346fbf;
+  font-size: 5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.about-founder {
+  text-align: center; /* Optional: To center the content horizontally */
+}
+.founder-title {
+  font-family: "Neuton", serif;
+  color: #346fbf;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+.founders-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.founding-member {
+  width: 50%; /* Make each div occupy 50% of the container's width */
+  box-sizing: border-box; /* Include padding and border in the width calculation, if any */
+  /* Additional styling for founding-member divs */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Vertically center content */
+}
+
+.tooltip {
+  display: none;
+  width: 13rem;
+  background-color: #ffffff;
+  color: #333;
+  text-align: center;
+  border-radius: 8px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: auto;
+  margin-left: 9rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.founding-member:hover .tooltip {
+  display: block;
+  opacity: 1;
+}
+
+.about-foundingMemberImage {
+  margin-right: 10px;
+}
+.about-foundingMemberInfo {
+  padding-top: 4px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-foundingMemberName {
+  font-size: 1.2rem;
+}
+
+.about-founded {
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+.about-foundedTitle {
+  font-family: "Neuton", serif;
+  color: #346fbf;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.about-foundedDescription {
+  font-size: 1.3rem;
+}
+
+.about-headquarters {
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+.about-headquartersTitle {
+  font-family: "Neuton", serif;
+  color: #346fbf;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.about-headquartersDescription {
+  font-size: 1.3rem;
+}
+
+/* Footer */
+
+.footer-wrapper {
+  margin-top: 3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  background-color: #346fbf;
+}
+
+/* .footer-line {
+  --tw-bg-opacity: 1;
+    background-color: rgba(52, 111, 191,var(--tw-bg-opacity));
+    width: 100vm;
+    height: 0.200rem;
+} */
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.footer-name {
+  margin-top: 1rem;
+  color: white;
+}
+
+.footer-socmed {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+  align-items: center;
+  flex-direction: row;
+  gap: 0.5rem;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.social-media img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
 /* Generation Section */
 
 .headline {
@@ -516,6 +690,52 @@ nav ul li a:hover::after {
   padding-bottom: 10px;
 }
 .movies_10s .lower_part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+/*2020s section*/
+
+.top_container_20s {
+  position: relative;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  background: url(/Assets/Preview24.png) center/cover no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.top_container_20s::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 0;
+}
+
+.movies_20s {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.movies_20s > div {
+  margin: 20px 50px;
+}
+.movies_20s .movie {
+  padding-bottom: 10px;
+}
+.movies_20s .lower_part {
   display: flex;
   justify-content: center;
   align-items: center;

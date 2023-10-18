@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Assets/Icon.png" type="image/x-icon" />
+    <title>Studio Ghibli Collection</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+
+    <div class="nav-container">
+      <nav id="desktop-nav">
+        <div class="logo-nav">
+          <img src="Assets/Logo.png" />
+          Studio Ghibli
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#section_80s">1980s</a></li>
+          <li><a href="index.html#section_90s">1990s</a></li>
+          <li><a href="index.html#section_00s">2000s</a></li>
+          <li><a href="index.html#section_10s">2010s</a></li>
+          <li><a href="index.html#section_20s">2020s</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Navigation - Hamburger -->
+
+    <nav id="hamburger-nav">
+      <div class="logo-hamburger">
+        <img src="Assets/Logo.png" /> Studio Ghibli
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="hamburger-links">
+          <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+          <li>
+            <a href="index.html#section_80s" onclick="toggleMenu()">1980s</a>
+          </li>
+          <li>
+            <a href="index.html#section_90s" onclick="toggleMenu()">1990s</a>
+          </li>
+          <li>
+            <a href="index.html#section_00s" onclick="toggleMenu()">2000s</a>
+          </li>
+          <li>
+            <a href="index.html#section_10s" onclick="toggleMenu()">2010s</a>
+          </li>
+          <li>
+            <a href="index.html#section_20s" onclick="toggleMenu()">2020s</a>
+          </li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="about">
+      <div class="about-wrapper">
+        <div class="about-header">
+          <img src="Assets/About_header.png" alt="About Header Image" />
+        </div>
+        <div class="about-description">
+          <h1 class="about-title">About</h1>
+          <p class="description-paragraph">
+            Studio Ghibli is a renowned Japanese animation film studio known for
+            creating enchanting and emotionally resonant animated films. Founded
+            in 1985 by filmmakers Hayao Miyazaki, Isao Takahata, Toshio Suzuki,
+            and Yasuyoshi Tokuma Studio Ghibli has become a symbol of excellence
+            in the world of animation. The studio is celebrated for its unique
+            storytelling, captivating characters, and beautifully hand-drawn
+            animation. Some of their iconic works include "My Neighbor Totoro,"
+            "Spirited Away," "Princess Mononoke," and "Howl's Moving Castle."
+            Studio Ghibli's films often explore themes of environmentalism, the
+            magic of childhood, and the human connection with nature. With a
+            global fanbase, Studio Ghibli continues to leave a lasting impact on
+            audiences of all ages with its imaginative and thought-provoking
+            cinematic creations.
+          </p>
+        </div>
+        <div class="about-founder">
+          <h1 class="founder-title">FOUNDERS</h1>
+          <div class="founders-list">
+            <div class="founding-member">
+              <div class="tooltip">
+                Hayao Miyazaki is a renowned Japanese film director, animator,
+                and co-founder of Studio Ghibli. Born on January 5, 1941,
+                Miyazaki is celebrated for his imaginative and visually stunning
+                animated films, often characterized by rich storytelling, strong
+                environmental themes, and memorable characters. His works, such
+                as "My Neighbor Totoro," "Spirited Away," and "Princess
+                Mononoke," have gained international acclaim and have had a
+                profound impact on the world of animation. Miyazaki's
+                contributions have earned him numerous awards and a dedicated
+                global fanbase.
+              </div>
+              <div class="about-foundingMemberImage">
+                <img
+                  src="Assets/Miyazaki.png"
+                  alt="Miyazaki"
+                  data-url="https://en.wikipedia.org/wiki/Hayao_Miyazaki"
+                  width="120"
+                  height="120"
+                />
+              </div>
+              <div class="about-foundingMemberInfo">
+                <div class="about-foundingMemberName">Hayao Miyazaki</div>
+              </div>
+            </div>
+
+            <div class="founding-member">
+              <div class="tooltip">
+                Toshio Suzuki is a Japanese film producer and co-founder of
+                Studio Ghibli, renowned for his collaboration with director
+                Hayao Miyazaki. Born on August 19, 1948, Suzuki has played a
+                crucial role in the success of Ghibli's animated masterpieces,
+                contributing to the production of iconic films like "Spirited
+                Away" and "My Neighbor Totoro." His influence extends beyond
+                producing, as he's also involved in the promotion and
+                distribution of Studio Ghibli's work.
+              </div>
+              <div class="about-foundingMemberImage">
+                <img
+                  src="Assets/Miyazaki.png"
+                  alt="Miyazaki"
+                  data-url="https://en.wikipedia.org/wiki/Hayao_Miyazaki"
+                  width="120"
+                  height="120"
+                />
+              </div>
+              <div class="about-foundingMemberInfo">
+                <div class="about-foundingMemberName">Hayao Miyazaki</div>
+              </div>
+            </div>
+
+            <div class="founding-member">
+              <div class="tooltip">
+                Isao Takahata (1935–2018) was a Japanese film director and
+                co-founder of Studio Ghibli. Renowned for his diverse
+                storytelling and emotionally resonant works, Takahata directed
+                films such as "Grave of the Fireflies" and "The Tale of Princess
+                Kaguya." His contributions to animation, often exploring human
+                experiences and societal themes, have left a lasting impact on
+                the industry.
+              </div>
+              <div class="about-foundingMemberImage">
+                <img
+                  src="Assets/Miyazaki.png"
+                  alt="Miyazaki"
+                  data-url="https://en.wikipedia.org/wiki/Hayao_Miyazaki"
+                  width="120"
+                  height="120"
+                />
+              </div>
+              <div class="about-foundingMemberInfo">
+                <div class="about-foundingMemberName">Hayao Miyazaki</div>
+              </div>
+            </div>
+
+            <div class="founding-member">
+              <div class="tooltip">
+                Yasuyoshi Tokuma (1933–2000) was a Japanese film producer and
+                publisher, known for co-founding Studio Ghibli with Hayao
+                Miyazaki and Isao Takahata. As the head of Tokuma Shoten, a
+                publishing company that expanded into film production, Tokuma
+                played a key role in the establishment and success of Studio
+                Ghibli. His contributions include producing acclaimed animated
+                films such as "My Neighbor Totoro" and "Kiki's Delivery
+                Service."
+              </div>
+              <div class="about-foundingMemberImage">
+                <img
+                  src="Assets/Miyazaki.png"
+                  alt="Miyazaki"
+                  data-url="https://en.wikipedia.org/wiki/Hayao_Miyazaki"
+                  width="120"
+                  height="120"
+                />
+              </div>
+              <div class="about-foundingMemberInfo">
+                <div class="about-foundingMemberName">Hayao Miyazaki</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">
+      <div class="footer-wrapper">
+        <div class="footer-line">
+          <div class="footer-content">
+            <p class="footer-name">
+              &copy; 2023 Studio Ghibli. All Rights Reserved.
+            </p>
+            <div class="footer-socmed">
+              <a href="https://www.facebook.com/GhibliUSA" class="social-media">
+                <img src="Assets/facebook.png" alt="facebook" />
+              </a>
+              <a
+                href="https://instagram.com/ghibliusa?igshid=MzRlODBiNWFlZA=="
+                class="social-media"
+              >
+                <img src="Assets/instagram.png" alt="instagram" />
+              </a>
+              <a href="https://twitter.com/ghiblipicture" class="social-media">
+                <img src="Assets/twitter.png" alt="twitter" />
+              </a>
+              <a href="https://www.youtube.com/@GKIDStv" class="social-media">
+                <img src="Assets/youtube.png" alt="youtube" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
