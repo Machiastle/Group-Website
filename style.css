@@ -60,11 +60,13 @@ body {
   font-size: 2rem;
   font-family: "Neuton", serif;
   color: #346fbf;
+  cursor: default;
 }
 
 .logo-nav img {
   height: 45px;
   padding-right: 0.5;
+  cursor: default;
 }
 
 nav {
@@ -728,6 +730,8 @@ nav ul li a:hover::after {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  min-height: 50vh;
+  padding-bottom: 20vh;
 }
 .movies_20s > div {
   margin: 20px 50px;
