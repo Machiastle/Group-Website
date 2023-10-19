@@ -117,7 +117,7 @@
   }
 
   .tooltip {
-    width: 18rem;
+    width: 14rem;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -136,7 +136,7 @@
     padding-left: 6rem;
   }
   .tooltip {
-    width: 15rem;
+    width: 10rem;
   }
 
 }

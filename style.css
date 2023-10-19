@@ -307,7 +307,7 @@ nav ul li a:hover::after {
 
 .tooltip {
   display: none;
-  width: 23rem;
+  width: 19rem;
   background-color: #ffffff;
   color: #333;
   text-align: center;
