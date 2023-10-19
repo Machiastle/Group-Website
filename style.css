@@ -29,6 +29,29 @@ body {
   font-size: 100%;
 }
 
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Fade */
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 2s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0%);
+  transform: translateY(0%);
+}
+
 /* Navigation */
 
 .nav-container {
@@ -39,11 +62,13 @@ body {
   font-size: 2rem;
   font-family: "Neuton", serif;
   color: #346fbf;
+  cursor: default;
 }
 
 .logo-nav img {
   height: 45px;
   padding-right: 0.5;
+  cursor: default;
 }
 
 nav {
@@ -420,6 +445,9 @@ nav ul li a:hover::after {
 #section_80s {
   margin-bottom: 5rem;
   margin-top: -13rem;
+  height: 100%;
+  min-height: 80vh;
+  padding-bottom: 20vh;
 }
 
 .top_container1980 {
@@ -607,6 +635,9 @@ nav ul li a:hover::after {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  height: 100%;
+  min-height: 50vh;
+  padding-bottom: 20vh;
 }
 .movies_00s > div {
   margin: 20px 50px;
@@ -666,6 +697,8 @@ nav ul li a:hover::after {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  min-height: 50vh;
+  padding-bottom: 20vh;
 }
 .movies_10s > div {
   margin: 20px 50px;
@@ -712,6 +745,8 @@ nav ul li a:hover::after {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  min-height: 50vh;
+  padding-bottom: 20vh;
 }
 .movies_20s > div {
   margin: 20px 50px;
