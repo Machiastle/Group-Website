@@ -8,7 +8,6 @@
   .profile-container {
     padding: 70px 10%;
   }
-
 }
 
 @media screen and (max-width: 1200px) {
@@ -138,7 +137,6 @@
   .tooltip {
     width: 10rem;
   }
-
 }
 @media screen and (max-width: 850px) {
   #hamburger-nav {
@@ -197,7 +195,7 @@
 
   .founders-list {
     display: grid;
-    grid-template-columns: repeat(2,2fr);
+    grid-template-columns: repeat(2, 2fr);
     grid-auto-flow: row;
     gap: 20px;
     justify-content: center;
@@ -212,27 +210,26 @@
     margin: 2rem;
     text-align: center;
   }
-  
+
   .about-foundingMemberImage {
     margin-bottom: 10px;
   }
-  
+
   .image-with-border {
     border: 5px solid #346fbf;
     border-radius: 8px;
   }
-  
+
   .about-foundingMemberInfo {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  
+
   .about-foundingMemberName {
     font-size: 1.2rem;
-    margin-top: 2px; 
+    margin-top: 2px;
     margin-right: 1rem;
-    
   }
 
   .tooltip {
@@ -241,7 +238,6 @@
     margin-top: 0.5rem;
     width: 16rem;
   }
-
 }
 
 @media screen and (max-width: 600px) {
@@ -304,10 +300,10 @@
   }
 
   .tooltip {
-      position: absolute;
-      left: 10%;
-      margin-top: 12rem;
-      width: 13rem;
+    position: absolute;
+    left: 10%;
+    margin-top: 12rem;
+    width: 13rem;
   }
 
   .founding-member {
@@ -405,7 +401,7 @@
     text-align: center;
   }
 
-  .footer-wrapper{
+  .footer-wrapper {
     margin-top: 20rem;
   }
 }
@@ -416,8 +412,7 @@
     left: -3%;
     margin-top: 12rem;
     width: 13rem;
-}
-
+  }
 }
 
 @media screen and (max-width: 300px) {
@@ -436,10 +431,11 @@
 
   #profile {
     height: 97vh;
+    margin: 0;
   }
 
   .profile-logo {
-    margin-top: 8rem;
+    margin-top: 0;
   }
 
   .profile-logo img {
@@ -488,9 +484,9 @@
     left: -30%;
     margin-top: 14rem;
     width: 13rem;
-}
+  }
 
-.footer-wrapper{
-  margin-top: 20rem;
-}
+  .footer-wrapper {
+    margin-top: 20rem;
+  }
 }
