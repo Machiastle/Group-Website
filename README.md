@@ -5,10 +5,10 @@ Upon selecting a film, users are provided with a wealth of information, includin
 
 Members and roles:
 
-Cujardo, Gwynn- 2020 section, About, responsiveness in about section, and Footer
+Cujardo, Gwynn - 2020 section, About, responsiveness in about section, and Footer
 
-Florendo, Cyrus Nathaniel- 1990s section, showcase section, responsiveness of the website
+Florendo, Cyrus Nathaniel - 1990s section, showcase section, responsiveness of the website
 
-Jaime, Jewel Vaida- Profile section, 1980s section, responsiveness of the website
+Jaime, Jewel Vaida - Profile section, 1980s section, responsiveness of the website
 
-Quiambao, Aeron Justin- 2000s section, 2010s section, and responsiveness of the website
+Quiambao, Aeron Justin - 2000s section, 2010s section, and responsiveness of the website
