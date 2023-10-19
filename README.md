@@ -4,6 +4,7 @@ This website pays homage to the legendary movie creators of anime, Studio Ghibli
 Upon selecting a film, users are provided with a wealth of information, including the specific release year of the movie, its duration, the key characters featured within, and a host of other details. This carefully curated platform is designed to foster a profound appreciation of the Studio Ghibli franchise among its users.
 
 Members and roles:
+
 Cujardo, Gwynn- 2020 section, About, responsiveness in about section, and Footer
 
 Jaime, Jewel Vaida- Profile section, 1980s section, responsiveness of the website
