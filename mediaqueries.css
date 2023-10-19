@@ -7,7 +7,9 @@
   .profile-container {
     padding: 70px 10%;
   }
+
 }
+
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
@@ -108,6 +110,10 @@
   .showcase .preview .heading_content h3 {
     font-size: 1rem;
   }
+
+  .founding-member {
+    padding-left: 8rem;
+  }
 }
 @media screen and (max-width: 1000px) {
   #profile {
@@ -119,6 +125,10 @@
   }
   .profile-container {
     padding: 70px 10%;
+  }
+
+  .founding-member {
+    padding-left: 6rem;
   }
 }
 @media screen and (max-width: 850px) {
@@ -175,6 +185,54 @@
     width: 75%;
     height: 100%;
   }
+
+  .founders-list {
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-auto-flow: row;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .founding-member {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+    margin: 2rem;
+    text-align: center;
+  }
+  
+  .about-foundingMemberImage {
+    margin-bottom: 10px;
+  }
+  
+  .image-with-border {
+    border: 5px solid #346fbf;
+    border-radius: 8px;
+  }
+  
+  .about-foundingMemberInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .about-foundingMemberName {
+    font-size: 1.2rem;
+    margin-top: 2px; 
+    margin-right: 1rem;
+    
+  }
+
+  .tooltip {
+    position: absolute;
+    left: 14%;
+    margin-top: 0.5rem;
+    width: 16rem;
+  }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -234,6 +292,17 @@
   }
   .founders-member {
     margin-bottom: 20px;
+  }
+
+  .tooltip {
+      position: absolute;
+      left: 10%;
+      margin-top: 12rem;
+      width: 13rem;
+  }
+
+  .founding-member {
+    padding-left: 2rem;
   }
 
   /*1980s section*/
@@ -326,6 +395,20 @@
     align-items: center;
     text-align: center;
   }
+
+  .footer-wrapper{
+    margin-top: 20rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .tooltip {
+    position: absolute;
+    left: -3%;
+    margin-top: 12rem;
+    width: 13rem;
+}
+
 }
 
 @media screen and (max-width: 300px) {
@@ -390,4 +473,15 @@
   .top_container_10s {
     height: 30vh;
   }
+
+  .tooltip {
+    position: absolute;
+    left: -30%;
+    margin-top: 14rem;
+    width: 13rem;
+}
+
+.footer-wrapper{
+  margin-top: 20rem;
+}
 }
